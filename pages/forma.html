@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Biblijski Pustinjski Putevi</title>
+    <link rel="icon" href="../images/logo.png" type="image/x-icon">
+</head>
+
+<body style="background-color: #b8860b;">
+    <nav>
+        <table>
+            <tr>
+
+                <td style="border: 2px solid black;"><a href="../index.html">Početna</a></td>
+                <td style="border: 2px solid black;"><a href="onama.html">O nama</a></td>
+                <td style="border: 2px solid black;"><a href="destinacije.html"> Destinacije</a></td>
+                <td style="border: 2px solid black;"><a href="ponuda.html">Ponuda</a></td>
+                <td style="border: 2px solid black;"><a href="forma.html">Forma</a></td>
+
+            </tr>
+        </table>
+    </nav>
+
+    <form style="margin-top: 20px;" action="cestitam.html"  >
+
+        <p>Ime</p>
+        <input type="text" required placeholder="Marko">
+
+        <p>Prezime</p>
+        <input type="text" required placeholder="Markovic">
+
+        <p>Datum rodjenja</p>
+        <input type="date" required>
+
+        <p>Pol:</p>
+        <input type="radio" name="pol">Muski
+        <input type="radio" name="pol">Zenski
+        <br><br><br>
+
+        <select>
+            <option selected>Izaberite ponudu</option>
+            <option>Ponuda 1</option>
+            <option>Ponuda 2</option>
+            <option>Ponuda 3</option>
+        </select>
+        <br><br>
+
+        <p>Broj osoba (max 5)</p>
+        <input type="number" min="1" max="5" required>
+
+        <p>Unesite vas Email:</p>
+        <input type="email" placeholder="email@email.com" required>
+
+        <p>Napomena:</p>
+        <textarea cols="30" rows="10" maxlength="150"></textarea>
+        <br><br><br>
+        
+        <input type="submit" value="Posalji">
+        <input type="reset" value="Restart">
+
+    </form>
+        
+</body>
+
+</html>
